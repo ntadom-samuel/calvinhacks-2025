@@ -568,20 +568,7 @@ const SignupPage = () => {
                             />
                         </CodeContainer>
 
-                        <CodeContainer>
-                            <p><b>RSVP Through GDG Form </b> “I authorize that I have RSVP'ed through 
-                            Google Developer Group Google Form, so that I have a chance at winning raffle prizes. If not,
-                            fill out this form (link)"</p>
-                            <input
-                                type="checkbox"
-                                name="communication"
-                                placeholder=''
-                                onChange={handleInput}
-                                value={communication}
-                                required
-                            />
-                        </CodeContainer>
-
+                                            
                         <ButtonContainer>
                             <button
                                 type="submit"

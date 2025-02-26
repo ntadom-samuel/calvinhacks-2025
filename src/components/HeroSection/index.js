@@ -30,22 +30,6 @@ const HeroSection = () => {
                     Take a Break and Get Plugged Back in!
                 </HeroP>
                 <HeroButtonContainer>
-                <ButtonGDG
-                        onClick={(e) => {
-                            e.preventDefault();
-                            //window.open("https://", "_blank").focus(); replace with GDG Google Form link
-                            // window.location.href = "/static/media/SponsorshipDocument.673dc1e7.pdf";
-                        }}
-                        primary=''
-                        liner='true'
-                        big="true"
-                        dark='true'
-                        // fontLarge=""
-                        color=''
-                    >
-                        RSVP to<br>
-                        </br>enter raffles!!!
-                    </ButtonGDG>
                     <Button to='/signup'
                         primary='true'
                         big='true'
