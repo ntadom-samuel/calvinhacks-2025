@@ -2,6 +2,7 @@ import { PartnerContainer, PartnerImages } from "./PartnersElement";
 
 import girls_who_code from "../../image/Girls_Who_Code.png";
 import google_developers_group from "../../image/GDG.png";
+// Work
 
 export default function PartnerSection() {
   return (
